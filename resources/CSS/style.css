@@ -1,0 +1,44 @@
+header {
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+}
+
+#recuadrado {
+  border: 1px solid black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.titular {
+  border: 3px solid black;
+}
