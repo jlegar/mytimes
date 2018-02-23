@@ -19,14 +19,22 @@ main {
 }
 
 .recuadrado {
-  border: 1px solid black;
-  color: white;
-  font-size: 1.5em;
+  flex: 0 0 auto;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-family: Georgia;
   font-weight: bold;
-  text-align: center;
+  font-size: 30px;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 300px;
 }
+
 .recuadrado.r1 {
   background-image: url('../images/story_main.png');
+  width: 100%;
 }
 
 .recuadrado.r2 {
@@ -41,6 +49,10 @@ main {
   background-image: url('../images/img-story-1.png');
 }
 
+.recuadrado p {
+  text-align: center;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -48,6 +60,7 @@ main {
 
 .column.large {
   width: 630px;
+  flex-flow: row wrap;
 }
 
 .column.medium {
@@ -59,5 +72,23 @@ main {
 }
 
 .titular {
-  border: 3px solid black;
+  flex: 0 0 300px;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.titular h1 {
+  text-align: center;
+}
+
+.prueba {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img {
+  flex: 0 0 auto;
+  object-fit: scale-down;
 }
