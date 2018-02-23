@@ -34,7 +34,7 @@ main {
 
 .recuadrado.r1 {
   background-image: url('../images/story_main.png');
-  width: 100%;
+  width: 630px;
 }
 
 .recuadrado.r2 {
@@ -72,7 +72,7 @@ main {
 }
 
 .titular {
-  flex: 0 0 300px;
+  flex: 1 1 300px;
   border: 1px solid blue;
   display: flex;
   flex-direction: column;
